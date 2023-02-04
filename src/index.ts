@@ -37,7 +37,7 @@ export default {
 			headers: {
 				'content-type': 'application/json;charset=UTF-8',
 				'Cache-Control': 'max-age=180',
-				"Access-Control-Allow-Origin": "https://cloudflare-adb.pages.dev"
+				"Access-Control-Allow-Origin": "https://cloudflare-adb.pages.dev http://localhost:3000"
 			},
 		});
 	},
